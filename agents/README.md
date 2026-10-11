@@ -26,7 +26,7 @@ Thinking effort (`low` / `high` / `max`, supported on K3 and K2.8 Preview) is ch
 | File | Role | Recommended model / effort | Tool posture |
 |---|---|---|---|
 | [guide_architect.md](guide_architect.md) | Architect | K3 / max | Read-only |
-| [guide_implementer.md](guide_implementer.md) | Implementer | K3 / high | Full, minus nothing |
+| [guide_implementer.md](guide_implementer.md) | Implementer | kimi-for-coding / high (K3 for large work) | Full, minus nothing |
 | [guide_explorer.md](guide_explorer.md) | Explorer | kimi-for-coding / low | Read-only, no Bash |
 | [guide_reviewer.md](guide_reviewer.md) | Reviewer | kimi-for-coding / high | No Write/Edit; Bash allowed for checks |
 | [guide_auditor.md](guide_auditor.md) | Auditor | K3 / max | Read-only |

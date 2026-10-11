@@ -20,7 +20,9 @@ Check remaining quota with `/usage` in the CLI or the Kimi Code Console on the w
 |---|---|---|
 | Kimi Code access | Plus and above | Andante and above |
 | K3 (`k3`, `k3-256k`) | Plus and above | Moderato and above |
-| 1M context (`k3`, `kimi-for-coding`) | Pro and above | Allegretto and above |
+| 1M context on K3 (`k3`) | Pro and above | Allegretto and above |
+
+Note: `kimi-for-coding` (K2.8 Preview) supports up to 1M context from Plus / Andante upward — the Pro / Allegretto gate applies only to K3's 1M window.
 | HighSpeed (`kimi-for-coding-highspeed`) | Pro and above | Allegretto and above |
 
 Pricing and tier names are current as of the verification date; the official plan page is the source of truth.

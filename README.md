@@ -6,7 +6,7 @@ A practical field guide to choosing **K3, K3 256K, K2.8 Preview and K2.7 Code Hi
 
 **Checked against official documentation: 10 October 2026.** Recommendations are starting points to evaluate on your own tasks, not benchmark results or guarantees. This is an independent guide by [dextee](https://github.com/dextee), not a Moonshot AI publication.
 
-Maintained by **[Dexter Ng](https://github.com/dextee), CTO & Cybersecurity Lead at [VYR](https://vyrwork.com/about)**. [Explore VYR Agent OS](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=kimi_agent_guide&utm_content=guide_intro) · [Work with VYR](WORK_WITH_VYR.md).
+Maintained by **[Dexter Ng](https://github.com/dextee), CTO & Cybersecurity Lead at [VYR](https://vyrwork.com/about?utm_source=github&utm_medium=referral&utm_campaign=kimi_agent_guide&utm_content=guide_author)**. [Explore VYR Agent OS](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=kimi_agent_guide&utm_content=guide_intro) · [Work with VYR](WORK_WITH_VYR.md).
 
 **Start with `kimi-for-coding` for everyday work. Step down to `kimi-for-coding-highspeed` for tight fix-and-test loops. Step up to K3 when ambiguity, long context or the consequences of a mistake justify it — and reach for `k3-256k` when the work fits in 256K tokens and you want the same answer at lower quota cost.**
 
@@ -33,7 +33,7 @@ Maintained by **[Dexter Ng](https://github.com/dextee), CTO & Cybersecurity Lead
 
 The general model positioning comes from [Kimi's official overview](https://www.kimi.com/code/docs/en/): K3 is Kimi's flagship for long-horizon programming and complex reasoning, and Kimi reports output up to 260 tokens/s across its tiers. The HighSpeed tier is described by Kimi as roughly 5–6× the output speed of Standard on the same underlying model. Our scenario assignments are editorial recommendations; thinking effort levels (`low` / `high` / `max`) apply to K3 and K2.8 Preview. See [models, context and effort](docs/models-context-effort.md).
 
-**Membership gates matter:** on current plans, Kimi Code and K3 need **Plus** or above; the 1M context window and HighSpeed need **Pro** or above (legacy names: Andante/Moderato/Allegretto map to the same gates). Model choice you cannot access is not a choice — [check your plan](docs/quota-and-cost.md).
+**Membership gates matter:** on current plans, Kimi Code and K3 need **Plus** or above; K3's 1M context window and HighSpeed need **Pro** or above, while `kimi-for-coding` keeps its 1M context from Plus up (legacy equivalents in the [tier table](docs/quota-and-cost.md)). Model choice you cannot access is not a choice — [check your plan](docs/quota-and-cost.md).
 
 ## The recommended team
 
@@ -42,7 +42,7 @@ Use **`kimi-for-coding` / high effort** as the everyday lead. Start a specialist
 | Agent | Model / effort | Job and output |
 |---|---|---|
 | [Architect](agents/guide_architect.md) | K3 / max | Resolve ambiguity; return a plan, tradeoffs and acceptance checks |
-| [Implementer](agents/guide_implementer.md) | K3 / high | Complete a feature; return changed files and relevant verification |
+| [Implementer](agents/guide_implementer.md) | kimi-for-coding / high (K3 for large work) | Complete a feature; return changed files and relevant verification |
 | [Explorer](agents/guide_explorer.md) | kimi-for-coding / low | Read-only search; return paths, symbols and useful evidence |
 | [Reviewer](agents/guide_reviewer.md) | kimi-for-coding / high | Routine independent review; return reproducible findings |
 | [Auditor](agents/guide_auditor.md) | K3 / max | Demanding final review across requirements and evidence |
@@ -86,8 +86,8 @@ cp agents/guide_*.md ~/.kimi-code/agents/
 Then start Kimi Code in the project and ask:
 
 ```text
-Use guide_explorer to map the code involved in this feature. Have
-guide_implementer build the change, then ask guide_reviewer to inspect it
+Use guide-explorer to map the code involved in this feature. Have
+guide-implementer build the change, then ask guide-reviewer to inspect it
 independently. Keep the requirements and final verification in the main thread.
 ```
 

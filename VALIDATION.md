@@ -13,6 +13,7 @@ What was checked locally for this guide, and the limits of those checks. Documen
 | Internal links | Validator resolves every relative markdown link in README, SETUP, docs, agents and SOURCES | Pass |
 | Docs navigation | Every `docs/*.md` page opens with a breadcrumb line | Pass |
 | Claim hygiene | Manual review: vendor-reported figures attributed; scenario routing labelled editorial; no benchmark claims; verification date stated | Pass |
+| Independent model audit | **Kimi K3 256K (`k3-256k`)**, run non-interactively on **11 October 2026** against the full repository with the official Kimi docs re-fetched live. Verdict: FIX-FIRST — one blocker (K3-only 1M tier gate misstated), four should-fix items (nonexistent `medium-high` effort, kebab-case agent names in usage prompts, Implementer model inconsistency, missing UTMs on three vyrwork.com links), two nits. All findings applied and re-validated before publication. | Pass |
 
 ## Limits
 

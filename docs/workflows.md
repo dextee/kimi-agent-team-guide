@@ -1,5 +1,7 @@
 [Home](../README.md) · [24-task selector](task-selector.md) · [Agent files](../agents/README.md)
 
+Checked against official documentation: **10 October 2026**. Routes are editorial starting points to evaluate on your own workload.
+
 # Workflow recipes
 
 Twelve copy-adaptable workflows. Each names a recommended model and effort, the agents to involve, the hand-off between them and the completion check. These are starting configurations to evaluate on your own workload — not benchmarked team results.

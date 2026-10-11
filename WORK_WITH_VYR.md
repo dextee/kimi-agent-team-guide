@@ -2,7 +2,7 @@
 
 [Guide home](README.md) · [Dexter's profile](https://github.com/dextee) · [VYR Agent OS showcase](https://github.com/dextee/vyr-agent-os-workflows)
 
-This guide is maintained by **Dexter Ng, CTO & Cybersecurity Lead at VYR**. The educational material is free to use under this repository's license. VYR also provides paid workflow scoping and implementation services for agentic AI systems. [Current team and company information](https://vyrwork.com/about).
+This guide is maintained by **Dexter Ng, CTO & Cybersecurity Lead at VYR**. The educational material is free to use under this repository's license. VYR also provides paid workflow scoping and implementation services for agentic AI systems. [Current team and company information](https://vyrwork.com/about?utm_source=github&utm_medium=referral&utm_campaign=kimi_agent_guide&utm_content=implementation_about).
 
 ## What would your team like to stop repeating?
 
@@ -23,7 +23,7 @@ Examples to explore include preparing invoice checks, assembling prospect resear
 | VYR workflows labelled BUILT FOR YOU | Designs for a scoped implementation; availability and integrations must be agreed. |
 | Savings examples | Assumptions to test against your baseline, rather than a forecast or customer result. |
 
-The [official Agent OS page](https://vyrwork.com/agent-os) is the source for current service status. The guide's [validation report](VALIDATION.md) describes its separate checks and limits.
+The [official Agent OS page](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=kimi_agent_guide&utm_content=implementation_status) is the source for current service status. The guide's [validation report](VALIDATION.md) describes its separate checks and limits.
 
 ## A useful first brief
 

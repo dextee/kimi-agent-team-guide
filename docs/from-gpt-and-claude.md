@@ -1,5 +1,7 @@
 [Home](../README.md) · [Models, context and effort](models-context-effort.md) · [Subagents and the model pool](subagents-and-model-pool.md)
 
+Checked against official documentation: **10 October 2026**.
+
 # From the GPT and Claude guides
 
 This guide is the third in a series. If you already use the [ChatGPT](https://github.com/dextee/chatgpt-agent-team-guide) or Claude agent-team guides, the tables below map their roles and levers onto Kimi Code. Model assignments in all three guides are editorial starting points.

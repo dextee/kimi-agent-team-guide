@@ -7,7 +7,7 @@ This setup installs **seven Kimi Code custom agents**. There is no installer and
 ## 1. Check prerequisites
 
 - Current Kimi Code CLI, Desktop or VS Code extension.
-- A membership plan with access to the models you intend to use (Plus+ for Kimi Code and K3; Pro+ for 1M context and HighSpeed on current plans — [tier table](docs/quota-and-cost.md)).
+- A membership plan with access to the models you intend to use (Plus+ for Kimi Code and K3 — including `kimi-for-coding`'s 1M context; Pro+ for K3's 1M window and HighSpeed on current plans — [tier table](docs/quota-and-cost.md)).
 
 ```bash
 kimi --version
@@ -52,14 +52,14 @@ default_model = "kimi-for-coding"
 Start a session in your project and ask:
 
 ```text
-Use guide_explorer to identify this project's entry points and test commands.
+Use guide-explorer to identify this project's entry points and test commands.
 Return only evidence with file references. Make no edits.
 ```
 
 Confirm the dispatch is offered and completes. Then try one deep role:
 
 ```text
-Use guide_architect to draft a plan for [a real upcoming task],
+Use guide-architect to draft a plan for [a real upcoming task],
 with acceptance checks and open decisions.
 ```
 

@@ -1,5 +1,7 @@
 [Home](../README.md) · [Models, context and effort](models-context-effort.md) · [Workflow recipes](workflows.md)
 
+Checked against official documentation: **10 October 2026**.
+
 # 24-task selector
 
 Pick a starting point, then escalate only when the trigger fires. Model names are Kimi Code model IDs; effort levels apply to K3 and K2.8 Preview. These assignments are this guide's editorial recommendations, not benchmark results.
@@ -24,7 +26,7 @@ Pick a starting point, then escalate only when the trigger fires. Model names ar
 | 16 | Generate repetitive test cases | kimi-for-coding-highspeed | Coverage logic becomes subtle | Test files plus a list of covered cases |
 | 17 | Triage a queue of similar items | kimi-for-coding-highspeed | Classification repeatedly wrong | Labeled items plus an exception list |
 | 18 | Repair a broken document or config | kimi-for-coding / low | Failure cause stays hidden after two looks | Working artifact plus what was wrong |
-| 19 | Prepare a demo with sample data | kimi-for-coding / medium-high | Demo must carry a business claim | Runnable demo plus stated limitations |
+| 19 | Prepare a demo with sample data | kimi-for-coding / high | Demo must carry a business claim | Runnable demo plus stated limitations |
 | 20 | Investigate an incident | k3-256k / max | Timeline evidence conflicts | Timeline, contributing causes, recommended action |
 | 21 | Plan a large migration | k3-256k / max | Whole-system coupling emerges; then k3 | Phased plan with ownership and checkpoints |
 | 22 | Quick question on your own codebase | main agent, no sub-agent | Answer changes a consequential decision | Direct answer with file reference |
