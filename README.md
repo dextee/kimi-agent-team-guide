@@ -136,7 +136,7 @@ Use the [evaluation worksheet](templates/evaluation.csv) and [quota guide](docs/
 
 This companion follows the same five-role spine as the earlier guides — architect, implementer, worker/explorer, reviewer and auditor — and adapts it to Kimi Code's agent model: Markdown custom agents, a subagent model pool, and thinking-effort levels instead of per-agent model pins. The guides form a series:
 
-- **Claude Code Agent Team Guide** — preserved at [its original Git commit](https://github.com/dextee/vyr-agent-os-workflows/tree/d227750cba963e48eb38035d84c5d339c2d7f877).
+- **Claude Code Agent Team Guide** — [github.com/dextee/claude-agent-team-guide](https://github.com/dextee/claude-agent-team-guide).
 - **ChatGPT Agent Team Guide** — [github.com/dextee/chatgpt-agent-team-guide](https://github.com/dextee/chatgpt-agent-team-guide).
 - **Kimi Agent Team Guide** — this repository.
 
